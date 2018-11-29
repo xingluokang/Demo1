@@ -17,13 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //在应用程序启动后覆盖自定义点。
     return YES;
 }
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+    //当应用程序即将从活动状态转换为非活动状态时发送。 对于某些类型的临时中断（例如来电或SMS消息），或者当用户退出应用程序并且它开始转换到后台状态时，可能会发生这种情况。
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    //使用此方法暂停正在进行的任务，禁用计时器，并使图形渲染回调无效。 游戏应该使用此方法暂停游戏。
 }
 
 
