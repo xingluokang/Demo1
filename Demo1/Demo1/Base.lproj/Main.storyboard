@@ -27,11 +27,22 @@
                                 </constraints>
                                 <state key="normal" title="我是按钮UIButton"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D78-et-kWF">
+                                <rect key="frame" x="60" y="312" width="200" height="100"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="AQB-QL-6bl"/>
+                                    <constraint firstAttribute="height" constant="100" id="ssA-db-JRI"/>
+                                </constraints>
+                                <state key="normal" title="我是按钮UIButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rN7-rP-rEQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EmD-uI-v4c"/>
                             <constraint firstItem="rN7-rP-rEQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FWO-cJ-zEX"/>
+                            <constraint firstItem="D78-et-kWF" firstAttribute="top" secondItem="rN7-rP-rEQ" secondAttribute="bottom" constant="22" id="WGi-kr-emg"/>
+                            <constraint firstItem="D78-et-kWF" firstAttribute="centerX" secondItem="rN7-rP-rEQ" secondAttribute="centerX" id="e9e-3j-Par"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
